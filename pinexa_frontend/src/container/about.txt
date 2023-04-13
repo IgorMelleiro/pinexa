@@ -1,0 +1,1 @@
+used to store LARGE components as the Home and others that use the small components from the 'components' folder

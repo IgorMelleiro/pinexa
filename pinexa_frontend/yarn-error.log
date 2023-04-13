@@ -1,0 +1,59 @@
+Arguments: 
+  /home/igor/.nvm/versions/node/v19.7.0/bin/node /home/igor/.yarn/bin/yarn.js add @sanity/client @sanity/image-url react-google-login react-icons react-loader-spinner react-masory-css react-router-dom uuid
+
+PATH: 
+  /home/igor/.yarn/bin:/home/igor/.config/yarn/global/node_modules/.bin:/home/igor/.yarn/bin:/home/igor/.config/yarn/global/node_modules/.bin:/home/igor/.nvm/versions/node/v19.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-masory-css: Not found
+      at params.callback [as _callback] (/home/igor/.yarn/lib/cli.js:66145:18)
+      at self.callback (/home/igor/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (/home/igor/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (/home/igor/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "pinexa_frontend",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.28",
+      "@types/react-dom": "^18.0.11",
+      "@vitejs/plugin-react": "^3.1.0",
+      "autoprefixer": "^10.4.14",
+      "postcss": "^8.4.21",
+      "tailwindcss": "^3.3.1",
+      "vite": "^4.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
